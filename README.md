@@ -116,6 +116,11 @@ if [[ "$1" == "dev" || "$1" == "stage" || "$1" == "prod" ]];
 fi 
 ``` 
 
-(leftoff: page 29)
+#### To change permission of a file to read only
+* syntax - `chmod 400 file_name`
+* For private key file - `chmod 400 my_key.pem`
+
+#### Connect to public DNS using SSH
+* command - `ssh -i "my_key.pem" uaser_name@ip_address`
 
 **Thanks to TutorialsPoint and some other sites/docs while googleing.**
