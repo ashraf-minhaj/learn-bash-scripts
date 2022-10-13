@@ -123,4 +123,8 @@ fi
 #### Connect to public DNS using SSH
 * command - `ssh -i "my_key.pem" uaser_name@ip_address`
 
+#### Check filetype
+* syntax `file file_name`
+* example `file Boring-Website`
+
 **Thanks to TutorialsPoint and some other sites/docs while googleing.**
